@@ -1,0 +1,34 @@
+{
+  "captured_at_utc": "2026-11-07T15:18:24.121328+00:00",
+  "hardware": {
+    "ane_cores": 16,
+    "ane_engine": "16-Core Apple Neural Engine (h17c)",
+    "coreai_architecture": "h17c",
+    "gpu": "Apple M5 Max",
+    "os": "macOS Version 27.2 (Build 26B123)",
+    "soc": "Apple M5 Max",
+    "unified_memory_gb": 64
+  },
+  "video_sha256": "46d7bc031c0769cc0bcb8eed454e68ec983f99a464bf2d0594943113f44e9e93",
+  "checks": [
+    "health and model/tool readiness",
+    "LAN binding without a key is rejected",
+    "speech preparation command and ready state",
+    "API authentication and error envelope",
+    "invalid video options, invalid images, and invalid media return errors",
+    "native conversation recall, greedy sampling, and token limit",
+    "live SSE chat, finish metadata, token usage, and DONE",
+    "uploaded image OCR, caption, and telemetry",
+    "live image chat stream",
+    "complete real video scan, timestamped speech, captions, summary, and actual duration",
+    "video upload, duration clipping, and temporary-file cleanup"
+  ],
+  "video_request": {
+    "video_path": "/private/tmp/ane-serve-release-demo/trail-guide.mp4",
+    "max_duration_sec": 180,
+    "frame_interval_sec": 1,
+    "scene_threshold": 0.2,
+    "max_vlm_scenes": 3
+  },
+  "server_started_and_stopped_by_runner": true
+}

@@ -1,0 +1,5 @@
+module CIOReport [system] {
+    header "CIOReport.h"
+    link "IOReport"
+    export *
+}

@@ -1,0 +1,7 @@
+{
+  "video_path": "/private/tmp/ane-serve-release-demo/trail-guide.mp4",
+  "max_duration_sec": 180,
+  "frame_interval_sec": 1,
+  "scene_threshold": 0.2,
+  "max_vlm_scenes": 3
+}

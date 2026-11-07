@@ -1,0 +1,79 @@
+{
+  "analyzedDurationSec": 12,
+  "aneAverageFabricBandwidthGBps": 38.91730216788237,
+  "aneOverdriveResidencyPercent": 97.89673285153162,
+  "anePeakFabricBandwidthGBps": 104,
+  "audioTranscriptionTimeSec": 0.18675899505615234,
+  "cpuAveragePowerWatts": 10.807619035057922,
+  "detectedSceneCount": 3,
+  "executiveSummary": "- [0.0s–4.0s]: Red background with \"RIVER TRAIL\" and \"Follow the red route\" text, plus a blue wavy line; OCR confirms \"RIVER TRAIL | Follow the red route\".\n- [4.0s–8.0s]: Blue background with \"LAKE TRAIL\" and \"Follow the blue route\" text, featuring a white oval; OCR shows \"LAKE TRAIL | Follow the blue route\".\n- [8.0s]: Green background with a white building icon; text reads \"VISITOR CENTER\" and \"Both trails meet here\"; OCR displays \"VISITOR CENTER | Both trails meet here\".",
+  "fullTranscriptText": "Welcome to the Trail Guide. River Trail is marked in red, Lake Trail is marked in blue. Both trails meet at the visitor center.",
+  "gpuAveragePowerWatts": 0.03781685029862327,
+  "realtimeSpeedupFactor": 2.0656437461523103,
+  "requestedDurationSec": 180,
+  "scenes": [
+    {
+      "captionStatus": "complete",
+      "ocrText": [
+        "RIVER TRAIL",
+        "Follow the red route"
+      ],
+      "sceneIndex": 1,
+      "timestampSec": 0,
+      "visualChangeDistance": 1,
+      "vlmDescription": "A red background with white text that reads, \"RIVER TRAIL\" and \"Follow the red route\" is visible. A blue wavy line is also present at the bottom of the frame."
+    },
+    {
+      "captionStatus": "complete",
+      "ocrText": [
+        "LAKE TRAIL",
+        "Follow the blue route"
+      ],
+      "sceneIndex": 2,
+      "timestampSec": 4,
+      "visualChangeDistance": 0.7018313,
+      "vlmDescription": "A blue background with white text and a white oval. The text reads \"LAKE TRAIL\" and \"Follow the blue route.\""
+    },
+    {
+      "captionStatus": "complete",
+      "ocrText": [
+        "VISITOR CENTER",
+        "Both trails meet here"
+      ],
+      "sceneIndex": 3,
+      "timestampSec": 8,
+      "visualChangeDistance": 0.9457421,
+      "vlmDescription": "The frame shows a green background with a white building icon in the center. The text \"VISITOR CENTER\" and \"Both trails meet here\" are displayed above the icon."
+    }
+  ],
+  "stageStatus": {
+    "captions": "complete",
+    "summary": "complete",
+    "transcription": "complete",
+    "visualAnalysis": "complete"
+  },
+  "status": "complete",
+  "telemetryStatus": "available",
+  "totalFramesEvaluated": 12,
+  "totalProcessingTimeSec": 5.809327006340027,
+  "transcriptSegments": [
+    {
+      "endTimeSec": 1.56,
+      "startTimeSec": 0,
+      "text": "Welcome to the Trail Guide."
+    },
+    {
+      "endTimeSec": 4.98,
+      "startTimeSec": 1.56,
+      "text": "River Trail is marked in red, Lake Trail is marked in blue."
+    },
+    {
+      "endTimeSec": 7.2,
+      "startTimeSec": 4.98,
+      "text": "Both trails meet at the visitor center."
+    }
+  ],
+  "videoPath": "/private/tmp/ane-serve-release-demo/trail-guide.mp4",
+  "visualScanTimeSec": 3.4068219661712646,
+  "warnings": []
+}
